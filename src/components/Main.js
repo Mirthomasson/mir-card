@@ -9,8 +9,8 @@ export default function Main() {
         <p className='title'>Frontend Developer</p>
         <a href='https://www.mirandathomasson.com/'>mirandathomasson.com</a>
         <div className='buttons'>
-            <button><img src={envelope} alt="envelope" />Email</button>
-            <button className='blue-button'><img src={linkedin} alt="linkedIn" />LinkedIn</button>
+            <button><a href="mailto: mirthomasson@gmail.com" rel='noreferrer' target='_blank'><img src={envelope} alt="envelope" />Email</a></button>
+            <button className='blue-button'><a href='https://www.linkedin.com/in/miranda-thomasson/' rel='noreferrer' target='_blank'><img src={linkedin} alt="linkedIn" />LinkedIn</a></button>
         </div>
         <div className='about'>
             <h2>About</h2>

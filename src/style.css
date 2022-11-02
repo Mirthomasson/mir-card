@@ -102,6 +102,14 @@ button {
   transition: all 0.4s ease;
 }
 
+button a {
+  color: inherit;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 button:hover {
   transition: all 0.4s ease;
   background-color: #fff;
