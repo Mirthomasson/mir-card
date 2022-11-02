@@ -173,8 +173,8 @@ footer a img {
 
 .gh img:hover {
   transition: all 0.5s ease;
-  background-color: silver;
-  border: 2px solid silver;
+  background-color: #6e5494;
+  border: 2px solid #6e5494;
   transform: scale(1.2);
 }
 
